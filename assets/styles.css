@@ -1,0 +1,182 @@
+body {
+    font-family: 'Saira',sans-serif;
+    font-size: small;
+    margin: 0
+}
+
+ul {
+    margin:0;
+}
+
+.content-container {
+    border: 1px solid navy;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    padding: 30px;
+    border-radius: 0 30px;
+    background-color: #c5c5c550;
+    font-weight: bolder;
+}
+
+.relative-position {
+    position: relative;
+}
+
+.backdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: repeat;
+    background-image: url(https://greeklife.uconn.edu/wp-content/uploads/sites/266/2015/06/deltaepsilonpsi.jpg);
+    opacity: .075;
+}
+
+.top-banner {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
+
+.top-banner-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:#010f879c;
+    padding: 15px 30px;
+    color: white;
+    height: 120px
+}
+
+.xxxl-font {
+    font-size: xxx-large;
+}
+
+.s-font {
+    font-size: small;
+}
+.xs-font {
+    font-size: x-small;
+}
+
+.class-chapter-info {
+    margin-top: -10px;
+    margin-left: 4px;
+}
+
+.mr5 {
+    margin-right: 5;
+}
+
+.mt10 {
+    margin-top: 10px
+}
+
+.mt15 {
+    margin-top: 15px
+}
+
+.pl15 {
+    padding-left: 15px;
+}
+
+.white-font, a {
+    color: white !important;
+}
+
+.display-center-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.display-evenly-parent {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mb15 {
+    margin-bottom: 15px;
+}
+.mr15 {
+    margin-right: 15px;
+}
+
+.center-text {
+    text-align: -webkit-center;
+}
+
+.flex {
+    display:flex;
+}
+
+.navy-bottom-border {
+    border-bottom: 1px solid navy
+}
+
+.awards-gallery-container {
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.m15 {
+    margin:15px
+}
+
+.award-image-container {
+    width: 200px;
+    height: 200px;
+}
+
+.award-image-subcontainer {
+    background-color: lightgrey;
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 15px;
+    overflow: hidden;
+}
+
+.award-image {
+    width:auto;
+    height:auto;
+    max-height: 100%;
+    max-width: 100%
+}
+
+.education-tile {
+    margin: 15px;
+    width: 150px;
+    height: 150px;
+}
+
+.education-tile-image-container {
+    height: 100%;
+    display: flex;
+    background-color: white;
+    align-items: center;
+}
+
+.l-font {
+    font-size: large;
+}
+
+.tile-container {
+    height:160px;
+    width:160px;
+    background:white;
+    display:flex;
+    align-items:center;
+    padding:5px;
+    border-radius: 5px;
+    overflow: hidden;
+    justify-content: center;
+}
